@@ -1,0 +1,2 @@
+# baking
+This is my baking journal dedicated to my attempts at baking bread and other baked goods at home. Here you will find, in great detail, my progress in baking, things that I have tried and the outcome in each case. I have tried to be as thorough as possible. I used this initially to track my own progress and learn from my experiences but now shows the promise of being a valuable resource for home bakers that are likewise tired of recipes that are not detailed enough.
