@@ -16,7 +16,7 @@ When the levain is at its highest rise, pour it into a bowl and add the milk, su
 
 Cover the dough with a damp towel and let rise in a warm place until almost doubled in size for about 4.5 hours.
 
-Turn the dough out onto a floured work surface. Pat it flat then roll it out with a rolling pin until it is 1.5cm thick. Cut the dough with round cookie cutters. Grease the cookie cutter to prevent the dough from sticking. If you don't have a cookie cutter, dip the rim of a glass in some oil and use it as your cookie cutter. Place the cutouts, evenly spaced, on floured baking sheets and let rise in a warm, draft-free place until almost doubled in size for about 3 hours.
+Turn the dough out onto a floured work surface. Pat it flat then roll it out with a rolling pin until it is 2cm thick. Cut the dough with round cookie cutters. Grease the cookie cutter to prevent the dough from sticking. If you don't have a cookie cutter, dip the rim of a glass in some oil and use it as your cookie cutter. Place the cutouts, evenly spaced, on floured baking sheets and let rise in a warm, draft-free place until almost doubled in size for about 3 hours.
 
 While the doughnuts are rising, make the filling. I have placed directions for the filling in a separate file [Ferni.md](Ferni.md). You can make more ferni than is needed for the doughnuts and keep the rest for breakfast.
 
