@@ -1,4 +1,4 @@
-# Sourdough Barbari Bread 8
+# Sourdough Barbari Bread 9
 Date: Fri 2020-07-24 - Sat
 
 ## Levain mix
