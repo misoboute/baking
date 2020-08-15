@@ -11,4 +11,4 @@ Doogh is a traditional fermented dairy drink.
 1/8 tsp arlic powder
 
 ## Instructions
-Mix all the ingredients in a container and let it rest for a week in a warm place. Then bottle it and store in the fridge.
+Mix all the ingredients and pour into an air-tight container and let it rest for a week in a warm place. Then bottle it and store in the fridge.
