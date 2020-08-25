@@ -5,6 +5,9 @@ My first instinct (coming from a baking background) would be to follow the same 
 
 So my second thought was to use the sourdough starter batch that I use for baking! So here's what I did. I mixed 50g of my sourdough starter with 200g of yoghurt. I started the process with yoghurt and I'm proceeding with yoghurt as well. But I think you should be able to come up with similar results (or better) if you used fresh, pasteurized milk. You have your sour doogh starter now and all you need to do is to feed it every 24 hours for about a week so that the flour from the initial sourdough starter begins to fade out and you have a culture of yeast and bacteria that work on milk/yoghurt to produce gas and acid and are safe for human consumption too.
 
+## Container
+To be on the safe side, keep the starter in an almost air-tight container to avoid introduction of unwanted micro-organisms which might affect the predictability of the starter and the taste of the resulting doogh. Don't bother to sterile the container and use airlocks. Just pick up a mason jar, wash it clean with detergents, and pour the starter into it. Before fastening the lid, fold a freezer bag once or twice and cover the top with it. Then put the lid on and screw it tight.
+
 ## Feeding the starter
 Feeding the starter is very simple. Just mix one part unfed starter with 4 parts fresh milk/yoghurt. This should be enough to get your starter going for the next 24 hours if you keep the starter in the room temperature (which you should do for at least one week after making it). If you keep the starter refrigerated, feeding according to the same formula could be done once a week.
 
