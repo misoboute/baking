@@ -1,0 +1,13 @@
+# Sourdoogh starter
+Just as you need a _[sourdough starter](Sourdough-Barbari-Bread.md#levain-mix)_ for your sourdough baking, you also need a _sourdoogh starter_ for making authentic traditional doogh. This you could either borrow from someone who already has it or you could make your own starter. I don't know of anyone who already has a sourdoogh starter batch as this whole recipe is made up by me at this point and so I don't suppose you know of anyone who does either. So we'll make our own starter from scratch.
+
+My first instinct (coming from a baking background) would be to follow the same procedure as for making a sourdough starter batch, that is, let the fresh milk rest for 48 hours in a warm place, then feed it every 24 hours by throwing away 80% of it and replacing the thrown away milk with the same amount of fresh milk. I couldn't follow this path because all the milk that is available to me is pasteurized and therefore lacks the necessary bacteria and yeasts to kickstart the fermentation. Even if I were to find un-pasteurized milk I wouldn't know what kinds of micro-organisms live in it and whether they are safe for human consumption - I assume that they're not and that's why we consume pasteurized milk.
+
+So my second thought was to use the sourdough starter batch that I use for baking! So here's what I did. I mixed 50g of my sourdough starter with 200g of yoghurt. I started the process with yoghurt and I'm proceeding with yoghurt as well. But I think you should be able to come up with similar results (or better) if you used fresh, pasteurized milk. You have your sour doogh starter now and all you need to do is to feed it every 24 hours for about a week so that the flour from the initial sourdough starter begins to fade out and you have a culture of yeast and bacteria that work on milk/yoghurt to produce gas and acid and are safe for human consumption too.
+
+## Feeding the starter
+Feeding the starter is very simple. Just mix one part unfed starter with 4 parts fresh milk/yoghurt. This should be enough to get your starter going for the next 24 hours if you keep the starter in the room temperature (which you should do for at least one week after making it). If you keep the starter refrigerated, feeding according to the same formula could be done once a week.
+
+Feeding is also one way to grow your culture size, e.g. if you have a 200g starter, you could grow it up to a maximum of 1kg overnight by mixing all the unfed starter into 800g of fresh milk/yoghurt.
+
+Any leftover from the unfed starter will be discarded unless you're going to make doogh with the leftover right away. You should only make doogh with starter that has been fed within the last 24 hours according to the same formula and kept in room temperature.
