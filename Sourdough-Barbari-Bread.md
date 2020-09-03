@@ -4,12 +4,12 @@
 Time: 23:30-23:45
 
 ### Ingredients
-- 140g flour (equal parts whole wheat and all-purpose flour)
-- 140g water
-- 70g starter (24hr fed)
+- 240g flour (equal parts whole wheat and all-purpose flour)
+- 240g water
+- 120g starter (24hr fed)
 
 ### Yields
-350g of 20% seeded, 100% hydrated levain
+428g of 20% seeded, 100% hydrated levain
 
 ### Comments
 This step is essentially the same as feeding the starter - except here we feed the starter to get a larger amount of it than our initial batch. So if I usually keep a 150g starter batch and I need 250g of levain in the final dough mix, here I will feed such that I get, say, 430g of levain so that I could use the 250g for the dough and keep the rest (slightly more than 150g) as the starter for future bakes. The extra 30g (430 = 150 + 250 + 30) is to account for the mixture that sticks to the bowl and implements and to get _at least_ 150g for the future starter. When the starter/levain is at its highest rise, a portion of it will be used in the dough mix and the rest will be kept as the future starter.
@@ -46,8 +46,8 @@ _Levain at its highest rise. Notice the bubbles on top._
 Time: 1:20-1:50
 
 ### Ingredients
-- 1064g water
-- 1376g all-purpose flour
+- 1456g water
+- 1927g all-purpose flour
 
 ### Comments
 Pour all the water in the bowl and then add about three quarters of the flour and start mixing with hand until you get an almost smooth batter. Continue adding the flour little by little while mixing. Add a small amount of the flour, mix well, then add more flour and so on. Continue until all the flour is gone. Mix ingredients until all the flour is incorporated into the bulk of dough, then perform a series of stretching exercises on the dough for ~5 min. 
@@ -82,9 +82,9 @@ Cover the dough container with a damp towel and let it rest for an hour so the w
 Time: 3:15-3:45
 
 ### Ingredients
-- 2439g autolysed dough
-- 26g salt
-- 85g levain
+- 3383g autolysed dough
+- 39g salt
+- 428g levain
 
 ### Yield
 2550g of 78% hydrated, 3% seeded dough 
@@ -92,7 +92,7 @@ Time: 3:15-3:45
 ### Comments
 Measure and pour the levain into a bowl, then add the salt to it. Mix well to dissolve the salt in the levain water. Then pour the levain mixture into the autolysed dough and exercise with hands to mix evenly. Right after mixing, perform the stretching and folding exercises on the dough for ~5 minutes to build up dough strength so that fewer stretching and folding sets will be needed during the fermentation.
 
-For 6 x 400g dough rounds, we prepare 150g of extra dough to compensate for the dough measurement errors and the leftover dough sticking to the bowl, etc.
+For 6 x 400g dough rounds, we prepare 150g of extra dough to compensate for the dough measurement errors and the leftover dough sticking to the bowl, etc. Generally, consider an extra 25g of dough per loaf.
 
 _The salt is dissolved in the levain and the levain will be added to the dough_
 ![The salt is dissolved in the levain and the levain will be added to the dough](images/Barbari-8/07-before-final-mix.jpg)
@@ -140,11 +140,11 @@ _After the bulk fermentation: note the bubbles on top_
 Time: 12:45-13:15
 
 ### Ingredients
-- 23g whole wheat
-- 181g water
+- 35g whole wheat
+- 272g water
 
 ### Yield
-193g ferni
+279g ferni
 
 ### Comment
 Pour the water in a small pan, then add the flour little by little while stirring the mixture to prevent formation of clots. When all the flour is added, place the pan on the stove (medium heat) and continue stirring until enough water is evaporated and enough flour starch is dissolved and the desired thickness is achieved. The starchier the ferni, the deeper the colour that it will impart to the loaf crust after baking.
@@ -158,7 +158,7 @@ _Prepared ferni_
 Time: 13:15-13:45
 
 ### Comments
-Prepare the work surface, divide and preshape 6 x 400g rounds, bench rest.
+Prepare the work surface, divide and preshape the rounds, bench rest.
 
 ### Work surface
 Probably a table top horizontally divided into three sections. The leftmost section is where the bulk is placed (top) along with the scale (bottom left) and a bowl of water (bottom right, for wetting the bench knife and the hand as needed). Also, do not dump the whole bulk on the table (as some recipes indicate) so it doesn't spread (as it is quite wet) to occupy so much space. Just grab a piece from inside the mixing container using a wet hand and cut it off using the bench knife. Place the piece on the floured scale tray and adjust the weight by cutting small pieces off it using the bench knife or adding to it. Then place the dough in the middle section of the table.
@@ -167,7 +167,7 @@ The middle section is the shaping area where the shaping techniques are performe
 
 The right section is floured beforehand and is where the preshaped dough rounds are placed. Allow enough space between them because they might spread (as they are highly hydrated).
 
-If the right section of the table (bench) doesn't have enough room to hold all the rounds, (as they are sparsely placed), preshape, shape, and bake 6 rounds first (or as many as you have room for). As soon as the first loaf goes into the oven and a spot on the bench becomes available, divide and preshape another round. Remember to shape each round about 30 min after its preshape.
+If the right section of the table (bench) doesn't have enough room to hold all the rounds, (as they are sparsely placed), preshape, shape, and bake as many of the loaves as you have room for rounds on the bench. As soon as the first loaf goes into the oven and a spot on the bench becomes available, divide and preshape another round. Remember to shape each round about 30 min after its preshape.
 
 _Work surface_
 ![Work surface](images/barbari-008/3-shaping-workspace.jpg)
