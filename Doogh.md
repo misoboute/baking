@@ -7,7 +7,7 @@ Doogh is a traditional Persian fermented dairy drink that is pleasantly fizzy an
 700g yoghurt (50%)
 70g starter (5%)
 630g water (45%)
-1.75 tsp salt
+1.75 tsp salt (125% tsp/kg)
 1 tsp ground peppermint leaves
 
 ## Yield
