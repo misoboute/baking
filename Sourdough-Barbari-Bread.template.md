@@ -242,7 +242,7 @@ At this point also start shaping the next barbari dough that has rested on the b
 
 As soon as, or if you see one side of the crust taking a golden colour while the other side is still pale, turn the half-baked bread 180 degrees around the vertical axis to make up for the uneven heat distibution inside the oven. 3-4 min before you expect to bring the loaf out, turn the oven temperature to 250 deg C to form the crust.
 
-The loaf should be ready in ${loafBakeTime} after being put into the oven. Take the bread out and place it on a rack vertically so that air could flow on both surfaces of the loaf. Give each loaf about one hour to cool down before cutting it. You can store the cut loaves in the freezer (in freezer bags) for up to 3 months. When you need a piece, just take it out of the freezer and heat it in a microwave oven or on the stove.
+The loaf should be ready in ${loafBakeDuration} after being put into the oven. Take the bread out and place it on a rack vertically so that air could flow on both surfaces of the loaf. Give each loaf about one hour to cool down before cutting it. You can store the cut loaves in the freezer (in freezer bags) for up to 3 months. When you need a piece, just take it out of the freezer and heat it in a microwave oven or on the stove.
 
 3-4 min before you expect to take the loaf out of the oven, proceed with galzing, patterning, and topping of the next dough round that is shaped already and rested on the bench.
 
