@@ -1,8 +1,9 @@
 from datetime import datetime
 import json
+import os.path
 import string
 
-class RecipeAdjust:
+class Adjuster:
     def __init__(self, templateFilePath, inputFilePath, outputFilePath):
         with open(templateFilePath) as templateFile:
             self._template = string.Template(templateFile.read())
@@ -45,5 +46,9 @@ class RecipeAdjust:
     def generate_recipe(self):
         self.compute_values()
         recipeText = self._template.substitute(self._computedValues)
+        directory = os.path.dirname(self._outputFilePath)
+        if (not os.path.exists(directory)):
+            os.mkdir(directory)
+
         with open(self._outputFilePath, 'w') as outputFile:
             outputFile.write(recipeText)

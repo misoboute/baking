@@ -1,13 +1,13 @@
-import adjustrec
+import recipeutil
 from datetime import datetime, timedelta
 import math
 
-class BarbariRecipeAdjust(adjustrec.RecipeAdjust):
+class RecipeAdjuster(recipeutil.Adjuster):
     def __init__(self):
-        adjustrec.RecipeAdjust.__init__(self, 
-            'Sourdough-Barbari-Bread.template.md',
-            'Sourdough-Barbari-Bread.input.json',
-            'Sourdough-Barbari-Bread-autogen.md')
+        recipeutil.Adjuster.__init__(self, 
+            'Barbari.template.md',
+            'Barbari.input.json',
+            'generated/Barbari.md')
             
     def get_dough_composition(self, totalDough, doughHydrationRatio, seedRatio,
                               levainHydrationRatio, saltRatio):
@@ -165,5 +165,5 @@ class BarbariRecipeAdjust(adjustrec.RecipeAdjust):
         self.set_template_var_dur('loafBakeDuration', loafBakeDuration)
         self.set_template_var_time('bakeEndTime', bakeEndTime)
 
-barbari = BarbariRecipeAdjust()
-barbari.generate_recipe()
+adjuster = RecipeAdjuster()
+adjuster.generate_recipe()
