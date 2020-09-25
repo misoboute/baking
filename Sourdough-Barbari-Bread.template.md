@@ -43,11 +43,11 @@ _Levain at its highest rise. Notice the bubbles on top._
 ![Levain at its highest rise. Notice the bubbles on top.](images/Barbari-8/06-levain-full-rise-top.jpg)
 
 ## Initial dough mix
-Time: 21:20-21:50
+Time: ${initDoughMixStartTime}-${initDoughMixEndTime}
 
 ### Ingredients
-- 1456g water
-- 1927g all-purpose flour
+- ${finalDoughWaterAmount} water
+- ${finalDoughFlourAmount} all-purpose flour
 
 ### Comments
 Pour all the water in the bowl and then add about three quarters of the flour and start mixing with hand until you get an almost smooth batter. Continue adding the flour little by little while mixing. Add a small amount of the flour, mix well, then add more flour and so on. Continue until all the flour is gone. Mix ingredients until all the flour is incorporated into the bulk of dough, then perform a series of stretching exercises on the dough for ~5 min. 
@@ -73,26 +73,26 @@ _Initial dough mix_
 ![Initial dough mix](images/Barbari-8/04-dough-initial-mix.jpg)
 
 ## Autolyse
-Time: 21:50-23:15
+Time: ${initDoughMixEndTime}-${levainRiseEndTime}
 
 ### Comments
 Cover the dough container with a damp towel and let it rest for an hour so the water is fully absorbed into flour particles and the right chemical reactions take place to turn flour proteins (gliadin, glutenin...) into gluten. Glutens are very long strands of molecules that attach to one another to form a great network across the bulk of dough. This is essentially what we recognize as dough strength. It is responsible for the dough holding to itself without breaking when stretched. The tiny compartments within the gluten network help trap and keep the fermentation gas inside the dough. These compartments will turn to the differently sized wholes within the crumb of the finished bread. The gluten is also responsible for the chewy texture of the final bread.
 
 ## Final dough mix
-Time: 23:15-23:45
+Time: ${levainRiseEndTime}-${finalDoughMixEndTime}
 
 ### Ingredients
-- 3383g autolysed dough
-- 39g salt
-- 428g levain
+- ${initDoughAmount} autolysed dough
+- ${finalDoughSaltAmount} salt
+- ${finalDoughLevainAmount} levain
 
 ### Yield
-2550g of 78% hydrated, 3% seeded dough 
+${finalDoughAmount} of ${finalDoughHydrationPercent} hydrated, ${finalDoughSeedPercent} seeded dough
 
 ### Comments
 Measure and pour the levain into a bowl, then add the salt to it. Mix well to dissolve the salt in the levain water. Then pour the levain mixture into the autolysed dough and exercise with hands to mix evenly. Right after mixing, perform the stretching and folding exercises on the dough for ~5 minutes to build up dough strength so that fewer stretching and folding sets will be needed during the fermentation.
 
-For 6 x 400g dough rounds, we prepare 150g of extra dough to compensate for the dough measurement errors and the leftover dough sticking to the bowl, etc. Generally, consider an extra 25g of dough per loaf.
+For ${numberOfLoaves} x ${doughRoundWeight} dough rounds, we prepare ${spillageExtraDoughAmount} of extra dough to compensate for the dough measurement errors and the leftover dough sticking to the bowl, spillage, etc. Generally, consider an extra ${extraDoughAmountPerRound} of dough per loaf.
 
 _The salt is dissolved in the levain and the levain will be added to the dough_
 ![The salt is dissolved in the levain and the levain will be added to the dough](images/Barbari-8/07-before-final-mix.jpg)
@@ -105,13 +105,13 @@ _Final dough mix volume_
 ![Final dough mix volume](images/Barbari-9/01-after-final-mix.jpg)
 
 ## Bulk fermentation
-Time: 23:15-9:15
+Time: ${finalDoughMixEndTime}-${bulkRiseEndTime}
 
 ## Comments
 Cover the bowl with a damp towel in the room temperature (25~30 deg C)
-- 0:00 one set of stretch and fold
-- 0:30 one set of stretch and fold (if needed)
-- 1:00 one set of stretch and fold (if needed)
+- ${stretchFold1Time} one set of stretch and fold
+- ${stretchFold2Time} one set of stretch and fold (if needed)
+- ${stretchFold3Time} one set of stretch and fold (if needed)
 
 Before performing the first set of stretches and folds, just as the dough surface is flat, mark the level of the dough on the exterior of the container (by sticking a thin, line-like piece of dough on one of the measurement marks) so you can see, at any time during the bulk rise, how much the dough has risen. If you have a container with measurement marks, just note down the starting volume of the dough.
 
@@ -121,10 +121,10 @@ Before every scheduled set of stretch and fold, perform the window pane test to 
 Pinch two points of the dough almost 5cm apart and stretch between the fingers. The dough should be stretched like cling wrap around the fingers to make a very thin, almost transparent window pane. If the dough is not yet strong enough, it will tear before the window pane is formed.
 
 ### Timing
-How long the bulk rise takes depends on the strength of the levain and the ambient temperature (which could vary over time). These two factors are not easily measurable or controllable. The bulk rise is done when the volume of the dough increases to about 150% of its starting volume (which you should have noted before the first set of stretch and fold). A rise that's less than 150% could result in a tighter crumb unless the loaves are given a longer final rise (after shaping). A rise that's considerably higher than 140% could consume all the dough strength and without enough strength the dough will lose much of its gas during the preshape and shape steps. Trust the volume measurements more than the time measurements. Besides when the dough is over-fermented, it becomes extremely difficult to work with due to its loss of strength. It becomes sticky and won't hold to itself as a stronger dough would.
+How long the bulk rise takes depends on the strength of the levain and the ambient temperature (which could vary over time). These two factors are not easily measurable or controllable. The bulk rise is done when the volume of the dough increases to about ${finalRiseVolIncPercent} of its starting volume (which you should have noted before the first set of stretch and fold). A rise that's too much less than this could result in a tighter crumb unless the loaves are given a longer final rise (after shaping). A rise that's considerably higher than this could consume all the dough strength and without enough strength the dough will lose much of its gas during the preshape and shape steps. Trust the volume measurements more than the time measurements. Besides when the dough is over-fermented, it becomes extremely difficult to work with due to its loss of strength. It becomes sticky and won't hold to itself as a stronger dough would.
 
-In my experience (see previous bake entries), for type 500 (all-purpose) flour, a 170% rise leads to a slightly tighter crumb than a 130% rise with equal final rise times. Somewhere in between should be the ideal limit which is different for different types of flour. So for type 500 flour, go for a 135% bulk rise and for type 850 flour you could go up to 170%. For anything in between, make linear adjustments. Although I haven't experimented with intermediate flour types yet, I assume this calculation to be safe. For instance, for type 650, you could go for a 150% bulk rise because:
-(650 - 500) / 10 + 135 = 150
+In my experience (see previous bake entries), for type 500 (all-purpose) flour, a 170% rise leads to a slightly tighter crumb than a 130% rise with equal final rise times. Somewhere in between should be the ideal limit which is different for different types of flour. For type 500 flour, go for a 125% bulk rise and for type 850 flour you could go up to 160%. For anything in between, make linear adjustments. Although I haven't experimented with intermediate flour types yet, I assume this calculation to be safe. For instance, for type 650, you could go for a 140% bulk rise because:
+(650 - 500) / 10 + 125 = 140
 
 _The window pane test before the first set of stretch and fold_
 ![The window pane test before the first set of stretch and fold](images/Barbari-8/11-stretch-1-window-pane.jpg)
@@ -137,25 +137,25 @@ _After the bulk fermentation: note the bubbles on top_
 ![After the bulk fermentation: note the bubbles on top](images/Barbari-9/03-after-bulk-rise-top.jpg)
 
 ## Barbari glaze (ferni)
-Time: 8:45-9:15
+Time: ${ferniStartTime}-${ferniEndTime}
 
 ### Ingredients
-- 35g whole wheat
-- 272g water
+- ${ferniFlourAmount} whole wheat
+- ${ferniWaterAmount} water
 
 ### Yield
-279g ferni
+${ferniYieldAmount} ferni
 
 ### Comment
 Pour the water in a small pan, then add the flour little by little while stirring the mixture to prevent formation of clots. When all the flour is added, place the pan on the stove (medium heat) and continue stirring until enough water is evaporated and enough flour starch is dissolved and the desired thickness is achieved. The starchier the ferni, the deeper the colour that it will impart to the loaf crust after baking.
 
-Optimal starting rate for ferni seems to be 800% hydrated mixture prepared according to the instructions. Amount of ferni to prepare is about 25g for a 400g loaf of barbari.
+Optimal starting rate for ferni seems to be ${ferniInitHydrationPercent} hydrated mixture prepared according to the instructions. Amount of ferni to prepare is about ${ferniAmountPerLoaf} for a ${doughRoundWeight} loaf of barbari.
 
 _Prepared ferni_
 ![Prepared ferni](images/Barbari-9/09-prepared-ferni.jpg)
 
 ## Preshape
-Time: 9:15-9:45
+Time: ${bulkRiseEndTime}-${preshapeEndTime}
 
 ### Comments
 Prepare the work surface, divide and preshape the rounds, bench rest.
@@ -184,7 +184,7 @@ _Rest after the preshape_
 ![Rest after the preshape](images/Barbari-9/05-after-preshape.jpg)
 
 ## Shape
-Time: 9:45-10:15
+Time: ${preshapeEndTime}-${shapeEndTime}
 
 ### Comments
 Preshaping of multiple dough rounds and preparing the ferni takes some time and, by the time that the last dough has been preshaped, the first preshaped dough has already rested on the bench for about 30 minutes and is ready to be shaped. Therefore, start shaping the first dough 20-30 min after its preshape has been done.
@@ -200,37 +200,37 @@ _Shaped rounds after glazing_
 ![Shaped rounds after glazing](images/Barbari-10/after-glazing.jpg)
 
 ## Final rise
-Time: 10:15-14:15
+Time: ${shapeEndTime}-${finalRiseEndTime}
 
 ### Comments
-In this step, the dough rounds should rise up to a critical point where more gas is built up inside but the round doesn't lose too much strength. We aim for about 115% a rise in this step. We can't exactly measure the volumetric rise of each round but, ignoring temperature variance, we could assume that the final rise has an almost equal rate to the bulk rise and therefore the time needed for a 115% rise will be proportionate to that needed for the bulk rise (135%) by a factor of `ln(1.15) / ln(1.35) = 0.47`. Generally speaking, given the temperature remains steady during the bulk and the final rise, we could estimate the time for the final rise as:
+In this step, the dough rounds should rise up to a critical point where more gas is built up inside but the round doesn't lose too much strength. We aim for about ${finalRiseVolIncPercent} a rise in this step. We can't exactly measure the volumetric rise of each round but, ignoring temperature variance, we could assume that the final rise has an almost equal rate to the bulk rise and therefore the time needed for a ${finalRiseVolIncPercent} rise will be proportionate to that needed for the bulk rise (${bulkRiseVolIncPercent}) by a factor that can be calculated as below. Generally speaking, given the temperature remains steady during the bulk and the final rise, we could estimate the time for the final rise as:
 ```
 t2 = t1 * ln(r2) / ln(r1) 
 ```
 where:
-- `t2`: time required for the final rise (4.05 h)
-- `t1`: time required for the bulk rise (9 h)
-- `r2`: volume increase rate during the final rise (1.5)
-- `r1`: volume increase rate during the bulk rise (1.2)
+- `t2`: time required for the final rise
+- `t1`: time required for the bulk rise
+- `r2`: volume increase rate during the final rise
+- `r1`: volume increase rate during the bulk rise
 
-*Note*: For type 500 flour, we go for a 115% rise and for type 850 flour 120%-125%. If the bulk has been over-fermented, you should have a shorter bench rise.
+*Note*: For type 500 flour, we go for around 115% rise and for type 850 flour 120%-125%. If the bulk has been over-fermented, you should have a shorter bench rise.
 
 _Shaped rounds after the final rise_
 ![Shaped rounds after the final rise](images/Barbari-10/after-final-rise.jpg)
 
 ## Bake
-Preheat time: 13:15
-Time: 14:15-17:15
+Preheat time: ${preheatTime}
+Time: ${finalRiseEndTime}-${bakeEndTime}
 
 ### Comments
-Start preheating the oven 1 hour before putting in the first loaf.
+Start preheating the oven ${preheatDuration} hour before putting in the first loaf to 250 deg C.
 
 The first round to have been shaped should be baked first. If the glaze is too much dried, apply a little more of it on top of the round. Grooving should be done right before baking (not right after shaping) because the pattern begins to dissappear during the bench rise. Punch the pattern by putting the 6 fingers on your both hands (3 middle fingers on each hand) together in a row to form the likeness of a comb, then punch the comb deep into the flattened dough to create about 5-6 rows of finger-holes that go from the left end of the round to the right end of it. The rows should be about 2cm apart. Leave unpunched margins of about 2cm at the top and bottom and 1cm at the sides.
 
 _Barbari pattern on the dough_
 ![Barbari pattern on the dough](images/Barbari-9/10-barbari-pattern.jpg)
 
-Place the peel near the bench and flour generously with whole wheat flour or milled bran. Then lift the flattened dough off with both hands and extend it longitudinally to the full size of the loaf (30 cm) while maintaining its width and place it on the peel floured side down. Take care not to disturb the shape too much (except for extending the length) when lifting with the hands. Put your hands together with the back of the hands down right in front of the round. Then shovel both your hands underneath the round. After spreading the dough on the peel you can sprinkle the top with sesame, poppy, other seeds or nuts, etc. Bring the peel near the oven and pull the oven tray out. Then place the loaf in the oven by sliding it on the tray and putting the tray back in the oven. No need to flour or grease the oven tray beforehand.
+Place the peel near the bench and flour generously with whole wheat flour or milled bran. Then lift the flattened dough off with both hands and extend it longitudinally to the full size of the loaf (30 cm) while maintaining its width and place it on the peel floured side down. Take care not to disturb the shape too much (except for extending the length) when lifting with the hands. Put your hands together with the back of the hands down right in front of the round. Then shovel both your hands underneath the round. After spreading the dough on the peel you can sprinkle the top with sesame, poppy, other seeds or nuts, etc. Bring the peel near the oven and pull the oven tray out. Then place the loaf in the oven by sliding it on the tray and putting the tray back in the oven. No need to flour or grease the oven tray beforehand. Immediately turn the oven temperature to 225 deg C.
 
 _Dough rolled out on the peel and topped with sesame_
 ![Dough rolled out on the peel and topped with sesame](images/Barbari-9/11-dough-on-peel.jpg)
@@ -240,13 +240,13 @@ _Dough finally placed in the oven_
 
 At this point also start shaping the next barbari dough that has rested on the bench for more than 20 min and, if there is more dough in the bulk that is not preshaped, preshape another dough round. Remember to remove the flour off the bottom middle section using the bench knife before that.
 
-As soon as, or if you see one side of the crust taking a golden colour while the other side is still pale, turn the half-baked bread 180 degrees around the vertical axis to make up for the uneven heat distibution inside the oven. This could be in about 12 min after placing the loaf in the oven.
+As soon as, or if you see one side of the crust taking a golden colour while the other side is still pale, turn the half-baked bread 180 degrees around the vertical axis to make up for the uneven heat distibution inside the oven. 3-4 min before you expect to bring the loaf out, turn the oven temperature to 250 deg C to form the crust.
 
-The loaf should be ready in 15-17 min after being put into the oven. Take the bread out and place it on a rack vertically so that air could flow on both surfaces of the loaf. Give each loaf at least one hour to cool down before cutting it. You can store the cut loaves in the freezer (in freezer bags) for up to 3 months. When you need a piece, just take it out of the freezer and heat it in a microwave oven or on the stove.
+The loaf should be ready in ${loafBakeTime} after being put into the oven. Take the bread out and place it on a rack vertically so that air could flow on both surfaces of the loaf. Give each loaf about one hour to cool down before cutting it. You can store the cut loaves in the freezer (in freezer bags) for up to 3 months. When you need a piece, just take it out of the freezer and heat it in a microwave oven or on the stove.
 
-3-4 min before you expect to take the loaf out of the oven, proceed with galzing, patterning, topping, and baking of the next dough round that is shaped already and rested on the bench.
+3-4 min before you expect to take the loaf out of the oven, proceed with galzing, patterning, and topping of the next dough round that is shaped already and rested on the bench.
 
-The glaze serves the purpose of keeping the crust from hardening before the bread goes through oven spring during the first 10 minutes of the bake. Placing a water dish inside the oven is useless and an inconvenience too.
+The glaze serves the purpose of keeping the crust from hardening before the bread goes through oven spring during the first minutes of the bake. Placing a water dish inside the oven is useless and an inconvenience too.
 
 _Finished loaves cooling down_
 ![Finished loaves cooling down](images/Barbari-8/14-finished-barbari.jpg)

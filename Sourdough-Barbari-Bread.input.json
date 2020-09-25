@@ -4,11 +4,21 @@
     "starterStrengthFactorHour" : 0.924,
     "maintainedStarterGrams" : 170,
     "levainHydrationPercent" : 100,
-    "levainSeedPercent" : 20,
+    "autolyseDuration" : "1:30",
+    "estimBulkRiseDuration" : "10:00",
+    "timeBetweenStretches" : "00:40",
+    "levainSeedPercent" : 15,
     "finalDoughSeedPercent" : 3,
     "finalDoughHydrationPercent" : 78,
     "finalDoughSaltPercent" : 1.8,
+    "flourTypeNumber" : 500,
     "doughRoundWeightGrams" : 400,
     "extraDoughGramsPerRound" : 25,
-    "numberOfLoaves" : 6
+    "numberOfLoaves" : 9,
+    "ferniGramsPerLoaf" : 30,
+    "ferniInitHydrationPercent" : 800,
+    "ferniFinalHydrationPercent" : 710,
+    "finalToBulkRiseRatioPercent" : 50,
+    "preheatDuration" : "01:00",
+    "loafBakeTimeMins" : 20
 }
