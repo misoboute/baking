@@ -7,7 +7,7 @@ class RecipeAdjuster(recipeutil.Adjuster):
         recipeutil.Adjuster.__init__(self, 
             'Sourdough-Doughnut.template.md',
             'Sourdough-Doughnut.input.json',
-            'generated/Sourdough-Doughnut.md')
+            'Sourdough-Doughnut.out.md')
             
     def compute_values(self):
         # Read values from the JSON input file:

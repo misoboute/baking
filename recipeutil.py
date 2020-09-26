@@ -47,7 +47,7 @@ class Adjuster:
         self.compute_values()
         recipeText = self._template.substitute(self._computedValues)
         directory = os.path.dirname(self._outputFilePath)
-        if (not os.path.exists(directory)):
+        if (not os.path.exists(directory) and not directory == ''):
             os.mkdir(directory)
 
         with open(self._outputFilePath, 'w') as outputFile:

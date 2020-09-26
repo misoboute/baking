@@ -7,7 +7,7 @@ class RecipeAdjuster(recipeutil.Adjuster):
         recipeutil.Adjuster.__init__(self, 
             'Barbari.template.md',
             'Barbari.input.json',
-            'generated/Barbari.md')
+            'Barbari.out.md')
             
     def get_dough_composition(self, totalDough, doughHydrationRatio, seedRatio,
                               levainHydrationRatio, saltRatio):
