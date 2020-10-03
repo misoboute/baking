@@ -20,6 +20,7 @@ b : total butter in final dough
 e : total egg in final dough
 f : total flour without the levain
 
+# Compute
 F = T / (sd * (1 + h) + (H - h * sd - wb * rb - we * re) / wm + rs + rst + re + rb + (1 - sd))
 l = sd * (1 + h) * F
 m = (H - h * sd - wb * rb - we * re) * F / wm
