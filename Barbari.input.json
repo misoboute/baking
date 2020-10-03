@@ -1,12 +1,12 @@
 {
-    "startTime" : "21:00",
+    "startTime" : "23:20",
     "starterHydrationPercent" : 100,
     "starterStrengthFactorPerHour" : 0.924,
-    "maintainedStarterGrams" : 230,
+    "maintainedStarterGrams" : 200,
     "levainHydrationPercent" : 100,
     "autolyseDuration" : "1:30",
     "estimBulkRiseDuration" : "12:00",
-    "timeBetweenStretches" : "00:45",
+    "timeBetweenStretches" : "00:40",
     "levainSeedPercent" : 20,
     "finalDoughSeedPercent" : 3,
     "finalDoughHydrationPercent" : 78,
@@ -20,5 +20,6 @@
     "ferniFinalHydrationPercent" : 780,
     "finalToBulkRiseRatioPercent" : 50,
     "preheatDuration" : "01:00",
-    "loafBakeDuration" : "00:20"
+    "loafBakeDuration" : "00:20",
+    "bakeMassReductionPercent" : 84
 }

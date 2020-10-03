@@ -90,7 +90,7 @@ Time: ${levainRiseEndTime}-${finalDoughMixEndTime}
 ${finalDoughAmount} of ${finalDoughHydrationPercent} hydrated, ${finalDoughSeedPercent} seeded dough
 
 ### Comments
-Measure and pour the levain into a bowl, then add the salt to it. Mix well to dissolve the salt in the levain water. Then pour the levain mixture into the autolysed dough and exercise with hands to mix evenly. Right after mixing, perform the stretching and folding exercises on the dough for ~5 minutes to build up dough strength so that fewer stretching and folding sets will be needed during the fermentation.
+Measure and pour the levain into a bowl, then add the salt to it. Mix well to dissolve the salt in the levain water. Then pour the levain mixture into the autolysed dough. Mix the levain into the dough by consecutive stretch and dough exercises. Continue stretching and folding for about 10 min to make sure that the levain and salt are evenly mixed in. This has the added benefit of building up further dough strength so that fewer stretching and folding sets will be needed during the fermentation. Mixing the levain and salt into the dough through random pinching and squeezing motions tends to weaken the strength that has already been built into the dough during autolyse requiring more stretches and folds during fermentation.
 
 For ${numberOfLoaves} x ${doughRoundWeight} dough rounds, we prepare ${spillageExtraDoughAmount} of extra dough to compensate for the dough measurement errors and the leftover dough sticking to the bowl, spillage, etc. Generally, consider an extra ${extraDoughAmountPerRound} of dough per loaf.
 
