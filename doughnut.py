@@ -41,7 +41,7 @@ class RecipeAdjuster(recipeutil.Adjuster):
 
         F = T / (sd * (1 + h) + (H - h * sd - wb * rb - we * re) / wm + 
                  rs + rst + re + rb + (1 - sd))
-        print("F", F)
+
         levainGrams = sd * (1 + h) * F
         milkGrams = (H - h * sd - wb * rb - we * re) * F / wm
         saltGrams = rst * F
