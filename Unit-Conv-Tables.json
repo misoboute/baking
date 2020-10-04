@@ -1,0 +1,33 @@
+{
+    "mass" : {
+        "grams" : 1,
+        "g" : 1,
+        "milligrams" : 0.001,
+        "mg" : 0.001,
+        "kilograms" : 1000,
+        "kg" : 1000
+    },
+    "volume" : {
+        "cubic centimetres" : 1,
+        "cubic centimeters" : 1,
+        "millilitres" : 1,
+        "milliliters" : 1,
+        "mL" : 1,
+        "cc" : 1,
+        "decilitres" : 100,
+        "deciliters" : 100,
+        "dL" : 100,
+        "litres" : 1000,
+        "liters" : 1000,
+        "L" : 1000,
+        "teaspoons" : 5,
+        "tsp" : 5,
+        "dessertspoons" : 10,
+        "dsp" : 10,
+        "tablespoons" : 15,
+        "tbsp" : 15,
+        "fluid ounces" : 28.41306,
+        "fl oz" : 28.41306,
+        "cups" : 250
+    }
+}
