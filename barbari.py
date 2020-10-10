@@ -41,22 +41,25 @@ class RecipeAdjuster(recipeutil.Adjuster):
         finalDoughSeedRatio = self.get_input_perc('finalDoughSeedPercent')
         finalDoughHydrationRatio = self.get_input_perc('finalDoughHydrationPercent')
         finalDoughSaltRatio = self.get_input_perc('finalDoughSaltPercent')
-        doughRoundWeightGrams = self.get_input('doughRoundWeightGrams')
+        loafWeightGrams = self.get_input('loafWeightGrams')
         flourTypeNumber = self.get_input('flourTypeNumber')
         numberOfLoaves = self.get_input('numberOfLoaves')
-        extraDoughGramsPerRound = self.get_input('extraDoughGramsPerRound')
+        extraDoughGramsPerLoaf = self.get_input('extraDoughGramsPerLoaf')
         ferniGramsPerLoaf = self.get_input('ferniGramsPerLoaf')
         ferniInitHydrationRatio = self.get_input_perc('ferniInitHydrationPercent')
         ferniFinalHydrationRatio = self.get_input_perc('ferniFinalHydrationPercent')
         finalToBulkRiseRatio = self.get_input_perc('finalToBulkRiseRatioPercent')
         preheatDuration = self.get_input_dur('preheatDuration')
         loafBakeDuration = self.get_input_dur('loafBakeDuration')
+        bakeMassReductionRatio = self.get_input_perc('bakeMassReductionPercent')
         
         # Compute values to be placed into the recipe template:
-        spillageExtraDoughGrams = numberOfLoaves * extraDoughGramsPerRound
+        spillageExtraDoughGrams = numberOfLoaves * extraDoughGramsPerLoaf
+
+        doughRoundWeightGrams = loafWeightGrams / bakeMassReductionRatio
 
         finalDoughGrams = numberOfLoaves * (
-            doughRoundWeightGrams + extraDoughGramsPerRound)
+            doughRoundWeightGrams + extraDoughGramsPerLoaf)
 
         levainMixEndTime = startTime + timedelta(minutes=15)
         maxLevainSeedContent = 5.08
@@ -140,8 +143,9 @@ class RecipeAdjuster(recipeutil.Adjuster):
         self.set_template_var_percent('finalDoughHydrationPercent', finalDoughHydrationRatio)
         self.set_template_var_percent('finalDoughSeedPercent', finalDoughSeedRatio)
         self.set_template_var_grams('spillageExtraDoughAmount', spillageExtraDoughGrams)
-        self.set_template_var_grams('extraDoughAmountPerRound', extraDoughGramsPerRound)
+        self.set_template_var_grams('extraDoughAmountPerRound', extraDoughGramsPerLoaf)
         self.set_template_var_grams('doughRoundWeight', doughRoundWeightGrams)
+        self.set_template_var_grams('loafWeight', loafWeightGrams)
         self.set_template_variable('numberOfLoaves', numberOfLoaves)
         self.set_template_var_time('finalDoughMixEndTime', finalDoughMixEndTime)
         self.set_template_var_time('stretchFold1Time', stretchFoldTimes[0])

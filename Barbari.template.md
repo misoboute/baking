@@ -1,5 +1,8 @@
 # Sourdough Barbari Bread
 
+## Yield
+This recipe will produce ${numberOfLoaves} loaves each with an average weight of ${loafWeight}.
+
 ## Levain mix
 Time: ${levainMixStartTime}-${levainMixEndTime}
 
@@ -161,7 +164,7 @@ Time: ${bulkRiseEndTime}-${preshapeEndTime}
 Prepare the work surface, divide and preshape the rounds, bench rest.
 
 ### Work surface
-Probably a table top horizontally divided into three sections. The leftmost section is where the bulk is placed (top) along with the scale (bottom left) and a bowl of water (bottom right, for wetting the bench knife and the hand as needed). Also, do not dump the whole bulk on the table (as some recipes indicate) so it doesn't spread (as it is quite wet) to occupy so much space. Just grab a piece from inside the mixing container using a wet hand and cut it off using the bench knife. Place the piece on the floured scale tray and adjust the weight by cutting small pieces off it using the bench knife or adding to it. Then place the dough in the middle section of the table.
+Probably a table top horizontally divided into three sections. The leftmost section is where the bulk is placed (top) along with the scale (bottom left) and a bowl of water (bottom right, for wetting the bench knife and the hand as needed). Also, do not dump the whole bulk on the table (as some recipes indicate) so it doesn't spread (as it is quite wet) to occupy so much space. Just grab a piece from inside the mixing container using a wet hand and cut it off using the bench knife. Place the piece on the floured scale tray and adjust the weight by cutting small pieces off it using the bench knife or adding to it. Then place the dough in the middle section of the table. At this stage, each dough round should be around ${doughRoundWeight}.
 
 The middle section is the shaping area where the shaping techniques are performed (folding sides, rotating, skin building, etc). While performing the techniques, slightly wet the hand and the bench knife if the dough starts sticking to them. The middle section must NOT be floured previously - the wetness from the hand and the bench knife will keep the skin of the dough wet and prevent it from sticking to the surface too much (unless it's overfermented in which case you're about screwed anyway!). After shaping the dough, lift it using the wet bench knife and place it in the rightmost section of the table.
 

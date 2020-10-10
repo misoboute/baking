@@ -1,18 +1,21 @@
 # Sourdough Barbari Bread
 
+## Yield
+This recipe will produce 4 loaves each with an average weight of 350g.
+
 ## Levain mix
-Time: 23:20-23:35
+Time: 20:05-20:20
 
 ### Ingredients
-- 114g flour (equal parts whole wheat and all-purpose flour)
-- 114g water
-- 57g starter (24hr fed)
+- 92g flour (equal parts whole wheat and all-purpose flour)
+- 92g water
+- 46g starter (24hr fed)
 
 ### Yields
-285g of 20% seeded, 100% hydrated levain
+229g of 20% seeded, 100% hydrated levain
 
 ### Comments
-This step is essentially the same as feeding the starter - except here we feed the starter to get a larger amount of it than our initial batch. So if I usually keep a 200g starter batch and I need 85g of levain in the final dough mix, here I will feed such that I get, say, 285g of levain so that I could use the 85g for the dough and keep the rest as the starter for future bakes. When the starter/levain is at its highest rise, a portion of it will be used in the dough mix and the rest will be kept as the future starter.
+This step is essentially the same as feeding the starter - except here we feed the starter to get a larger amount of it than our initial batch. So if I usually keep a 170g starter batch and I need 59g of levain in the final dough mix, here I will feed such that I get, say, 229g of levain so that I could use the 59g for the dough and keep the rest as the starter for future bakes. When the starter/levain is at its highest rise, a portion of it will be used in the dough mix and the rest will be kept as the future starter.
 
 Before making the levain (or feeding the starter), if the starter has liquid on top of it (hooch), mix it well before using it. Then, in a mixing bowl, pour the water and add the appropriate amount of the starter and mix well. Then add the flour and mix well. 
 
@@ -31,7 +34,7 @@ _Levain immediately after the mix - top view_
 ![Levain immediately after the mix - top view](images/Barbari-8/02-levain-after-mix-top.jpg)
 
 ## Levain rise
-Time: 23:35-03:05
+Time: 20:20-23:50
 
 ### Comments
 Basically how long it takes for the levain to rise to its highest depends on the temperature and its strength. If you find out that, in the same temperature, your levain takes ever longer to rise, chance is it's losing its strengths. This could happen when you neglect to feed the starter once or twice a week. Probably a full week of feeding the starter every 24 hours, with no fridge storage in between feedings, could restore its vitality. From then on, feed it 3 times a week: once 48h before the levain mix, 24h before, and once the levain mix itself. After mixing the levain into the dough, store it in the fridge for slow fermentation. If not baking for one week, feed the starter twice 24h apart and store it in the fridge after the second feeding. 
@@ -43,11 +46,11 @@ _Levain at its highest rise. Notice the bubbles on top._
 ![Levain at its highest rise. Notice the bubbles on top.](images/Barbari-8/06-levain-full-rise-top.jpg)
 
 ## Initial dough mix
-Time: 01:35-01:55
+Time: 22:20-22:40
 
 ### Ingredients
-- 1064g water
-- 1376g all-purpose flour
+- 737g water
+- 953g all-purpose flour
 
 ### Comments
 Pour all the water in the bowl and then add about three quarters of the flour and start mixing with hand until you get an almost smooth batter. Continue adding the flour little by little while mixing. Add a small amount of the flour, mix well, then add more flour and so on. Continue until all the flour is gone. Mix ingredients until all the flour is incorporated into the bulk of dough, then perform a series of stretching exercises on the dough for ~5 min. 
@@ -73,26 +76,26 @@ _Initial dough mix_
 ![Initial dough mix](images/Barbari-8/04-dough-initial-mix.jpg)
 
 ## Autolyse
-Time: 01:55-03:05
+Time: 22:40-23:50
 
 ### Comments
 Cover the dough container with a damp towel and let it rest for an hour so the water is fully absorbed into flour particles and the right chemical reactions take place to turn flour proteins (gliadin, glutenin...) into gluten. Glutens are very long strands of molecules that attach to one another to form a great network across the bulk of dough. This is essentially what we recognize as dough strength. It is responsible for the dough holding to itself without breaking when stretched. The tiny compartments within the gluten network help trap and keep the fermentation gas inside the dough. These compartments will turn to the differently sized wholes within the crumb of the finished bread. The gluten is also responsible for the chewy texture of the final bread.
 
 ## Final dough mix
-Time: 03:05-03:35
+Time: 23:50-00:20
 
 ### Ingredients
-- 2439g autolysed dough
-- 26g salt
-- 85g levain
+- 1690g autolysed dough
+- 18g salt
+- 59g levain
 
 ### Yield
-2550g of 78% hydrated, 3% seeded dough
+1767g of 78% hydrated, 3% seeded dough
 
 ### Comments
 Measure and pour the levain into a bowl, then add the salt to it. Mix well to dissolve the salt in the levain water. Then pour the levain mixture into the autolysed dough. Mix the levain into the dough by consecutive stretch and dough exercises. Continue stretching and folding for about 10 min to make sure that the levain and salt are evenly mixed in. This has the added benefit of building up further dough strength so that fewer stretching and folding sets will be needed during the fermentation. Mixing the levain and salt into the dough through random pinching and squeezing motions tends to weaken the strength that has already been built into the dough during autolyse requiring more stretches and folds during fermentation.
 
-For 6 x 400g dough rounds, we prepare 150g of extra dough to compensate for the dough measurement errors and the leftover dough sticking to the bowl, spillage, etc. Generally, consider an extra 25g of dough per loaf.
+For 4 x 417g dough rounds, we prepare 100g of extra dough to compensate for the dough measurement errors and the leftover dough sticking to the bowl, spillage, etc. Generally, consider an extra 25g of dough per loaf.
 
 _The salt is dissolved in the levain and the levain will be added to the dough_
 ![The salt is dissolved in the levain and the levain will be added to the dough](images/Barbari-8/07-before-final-mix.jpg)
@@ -105,13 +108,13 @@ _Final dough mix volume_
 ![Final dough mix volume](images/Barbari-9/01-after-final-mix.jpg)
 
 ## Bulk fermentation
-Time: 03:35-15:35
+Time: 00:20-12:20
 
 ## Comments
 Cover the bowl with a damp towel in the room temperature (25~30 deg C)
-- 04:15 one set of stretch and fold
-- 04:55 one set of stretch and fold (if needed)
-- 05:35 one set of stretch and fold (if needed)
+- 01:05 one set of stretch and fold
+- 01:50 one set of stretch and fold (if needed)
+- 02:35 one set of stretch and fold (if needed)
 
 Before performing the first set of stretches and folds, just as the dough surface is flat, mark the level of the dough on the exterior of the container (by sticking a thin, line-like piece of dough on one of the measurement marks) so you can see, at any time during the bulk rise, how much the dough has risen. If you have a container with measurement marks, just note down the starting volume of the dough.
 
@@ -137,31 +140,31 @@ _After the bulk fermentation: note the bubbles on top_
 ![After the bulk fermentation: note the bubbles on top](images/Barbari-9/03-after-bulk-rise-top.jpg)
 
 ## Barbari glaze (ferni)
-Time: 15:05-15:35
+Time: 11:50-12:20
 
 ### Ingredients
-- 26g whole wheat
-- 210g water
+- 17g whole wheat
+- 140g water
 
 ### Yield
-228g ferni
+152g ferni
 
 ### Comment
 Pour the water in a small pan, then add the flour little by little while stirring the mixture to prevent formation of clots. When all the flour is added, place the pan on the stove (medium heat) and continue stirring until enough water is evaporated and enough flour starch is dissolved and the desired thickness is achieved. The starchier the ferni, the deeper the colour that it will impart to the loaf crust after baking.
 
-Optimal starting rate for ferni seems to be 810% hydrated mixture prepared according to the instructions. Amount of ferni to prepare is about 38g for a 400g loaf of barbari.
+Optimal starting rate for ferni seems to be 810% hydrated mixture prepared according to the instructions. Amount of ferni to prepare is about 38g for a 417g loaf of barbari.
 
 _Prepared ferni_
 ![Prepared ferni](images/Barbari-9/09-prepared-ferni.jpg)
 
 ## Preshape
-Time: 15:35-16:05
+Time: 12:20-12:50
 
 ### Comments
 Prepare the work surface, divide and preshape the rounds, bench rest.
 
 ### Work surface
-Probably a table top horizontally divided into three sections. The leftmost section is where the bulk is placed (top) along with the scale (bottom left) and a bowl of water (bottom right, for wetting the bench knife and the hand as needed). Also, do not dump the whole bulk on the table (as some recipes indicate) so it doesn't spread (as it is quite wet) to occupy so much space. Just grab a piece from inside the mixing container using a wet hand and cut it off using the bench knife. Place the piece on the floured scale tray and adjust the weight by cutting small pieces off it using the bench knife or adding to it. Then place the dough in the middle section of the table.
+Probably a table top horizontally divided into three sections. The leftmost section is where the bulk is placed (top) along with the scale (bottom left) and a bowl of water (bottom right, for wetting the bench knife and the hand as needed). Also, do not dump the whole bulk on the table (as some recipes indicate) so it doesn't spread (as it is quite wet) to occupy so much space. Just grab a piece from inside the mixing container using a wet hand and cut it off using the bench knife. Place the piece on the floured scale tray and adjust the weight by cutting small pieces off it using the bench knife or adding to it. Then place the dough in the middle section of the table. At this stage, each dough round should be around 417g.
 
 The middle section is the shaping area where the shaping techniques are performed (folding sides, rotating, skin building, etc). While performing the techniques, slightly wet the hand and the bench knife if the dough starts sticking to them. The middle section must NOT be floured previously - the wetness from the hand and the bench knife will keep the skin of the dough wet and prevent it from sticking to the surface too much (unless it's overfermented in which case you're about screwed anyway!). After shaping the dough, lift it using the wet bench knife and place it in the rightmost section of the table.
 
@@ -184,7 +187,7 @@ _Rest after the preshape_
 ![Rest after the preshape](images/Barbari-9/05-after-preshape.jpg)
 
 ## Shape
-Time: 16:05-16:35
+Time: 12:50-13:20
 
 ### Comments
 Preshaping of multiple dough rounds and preparing the ferni takes some time and, by the time that the last dough has been preshaped, the first preshaped dough has already rested on the bench for about 30 minutes and is ready to be shaped. Therefore, start shaping the first dough 20-30 min after its preshape has been done.
@@ -200,7 +203,7 @@ _Shaped rounds after glazing_
 ![Shaped rounds after glazing](images/Barbari-10/after-glazing.jpg)
 
 ## Final rise
-Time: 16:35-22:55
+Time: 13:20-19:40
 
 ### Comments
 In this step, the dough rounds should rise up to a critical point where more gas is built up inside but the round doesn't lose too much strength. We aim for about 112% a rise in this step. We can't exactly measure the volumetric rise of each round but, ignoring temperature variance, we could assume that the final rise has an almost equal rate to the bulk rise and therefore the time needed for a 112% rise will be proportionate to that needed for the bulk rise (125%) by a factor that can be calculated as below. Generally speaking, given the temperature remains steady during the bulk and the final rise, we could estimate the time for the final rise as:
@@ -219,8 +222,8 @@ _Shaped rounds after the final rise_
 ![Shaped rounds after the final rise](images/Barbari-10/after-final-rise.jpg)
 
 ## Bake
-Preheat time: 21:55
-Time: 22:55-00:55
+Preheat time: 18:40
+Time: 19:40-21:00
 
 ### Comments
 Start preheating the oven 01:00 hour before putting in the first loaf to 250 deg C.
