@@ -1,17 +1,17 @@
 # Sourdough Doughnut
 
 ## Dough ingredients
-- 18g 100% hydrated levain at full rise
-- 177g lukewarm milk (scalded then cooled)
-- 70g granulated sugar
-- 3g salt
-- 1.0 egg 
-- 32g butter
-- 284g all-purpose flour
+- 33g 100% hydrated levain at full rise
+- 324g lukewarm milk (scalded then cooled)
+- 139g granulated sugar
+- 6g salt
+- 2.0 egg 
+- 78g butter
+- 541g all-purpose flour
 - extra vegetable oil, for frying
 
 ## Yield
-12 x 54g doughnuts
+25 x 50g doughnuts
 
 ## Preparations
 Half an hour before the levain is expected to be at its highest, prepare the ingredients. Heat the milk and let it cool down for 20 min. 
@@ -23,7 +23,7 @@ When the levain is at its highest rise, pour it into a bowl and add the milk, su
 Cover the dough with a damp towel and let rise in a warm place for about 4.5 hours.
 
 ## Shape + final rise
-Turn the dough out onto a floured work surface. Flour the top of the bulk and shape using hands and/or the bench knife into an almost round ball. Pat it flat into a rounded rectangle almost 2cm thick. Cut the dough into 12 equally sized squares using the bench knife. This way, you won't have doughnut holes or the excess dough skeleton. Cut and lift each piece and place on separate small baking sheets on the bench to rise in a warm, draft-free place for about 3 hours.
+Turn the dough out onto a floured work surface. Flour the top of the bulk and shape using hands and/or the bench knife into an almost round ball. Pat it flat into a rounded rectangle almost 2cm thick. Cut the dough into 25 equally sized squares using the bench knife. This way, you won't have doughnut holes or the excess dough skeleton. Cut and lift each piece and place on separate small baking sheets on the bench to rise in a warm, draft-free place for about 3 hours.
 
 ## Prepare the filling
 While the doughnuts are rising, make the filling. My favourite filling for these doughnuts is [Ferni.md](Ferni.md). You can make more ferni than is needed for the doughnuts and keep the rest for breakfast.

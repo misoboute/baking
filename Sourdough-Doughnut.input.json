@@ -1,15 +1,15 @@
 {
-    "numberOfDoughnuts" : 12,
-    "doughnutWeightGrams" : 54,
+    "numberOfDoughnuts" : 25,
+    "doughnutWeightGrams" : 50,
     "levainHydrationPercent" : 100,
-    "doughHydrationPercent" : 74,
+    "doughHydrationPercent" : 73,
     "doughSeedPercent" : 3,
-    "sugarToFlourPercent" : 24,
+    "sugarToFlourPercent" : 25,
     "saltToFlourPercent" : 1,
-    "butterToFlourPercent" : 11,
-    "eggToFlourPercent" : 22,
+    "butterToFlourPercent" : 14,
+    "eggToFlourPercent" : 23,
     "butterWaterContentPercent" : 16,
     "eggWaterContentPercent" : 75,
     "eggWeightGrams" : 65,
-    "milkWaterContentPercent" : 87    
+    "milkWaterContentPercent" : 87
 }
