@@ -48,11 +48,6 @@ class UnitConv:
 
         return convValue
 
-
-    def conv_fmt(self, value, toUnit, fromUnit = '', material = '', fmt = '{}'):
-        return (fmt + ' {}').format(
-            self.conv(value, toUnit, fromUnit, material), toUnit)
-
     def is_mass_unit(self, unit):
         return unit and unit in self._massConvTab
 
