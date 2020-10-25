@@ -18,7 +18,7 @@ class UnitConv:
         if not material:
             raise RuntimeError(
                 'Material type must be specified when converting '
-                'mass to/from volum')
+                'mass to/from volume.')
 
         if not material in self._densities:
             raise RuntimeError(
@@ -27,7 +27,7 @@ class UnitConv:
 
         return self._densities[material]
 
-    def conv(self, value, toUnit, fromUnit = '', material = ''):
+    def conv(self, value, toUnit, fromUnit = '', material = '', roundOff = 0):
         if (material and not material in self._densities):
             raise RuntimeError('Unable to find density value for "{material}"')
 
@@ -38,24 +38,36 @@ class UnitConv:
                 raise RuntimeError(
                     'Measurement unit "{u}" not found in conversion tables')
 
-        if (toUnit in self._massConvTab):
-            return self._conv_mass(value, toUnit, fromUnit, material)
-        elif (toUnit in self._volConvTab):
-            return self._conv_vol(value, toUnit, fromUnit, material)
+        if self.is_mass_unit(toUnit):
+            convValue = self._conv_mass(value, toUnit, fromUnit, material)
+        else:
+            convValue = self._conv_vol(value, toUnit, fromUnit, material)
+        
+        if roundOff:
+            convValue = round(convValue / roundOff) * roundOff
+
+        return convValue
+
 
     def conv_fmt(self, value, toUnit, fromUnit = '', material = '', fmt = '{}'):
         return (fmt + ' {}').format(
             self.conv(value, toUnit, fromUnit, material), toUnit)
 
+    def is_mass_unit(self, unit):
+        return unit and unit in self._massConvTab
+
+    def is_vol_unit(self, unit):
+        return unit and unit in self._volConvTab
+
     def _conv_mass(self, value, toUnit, fromUnit, material):
-        if (fromUnit in self._volConvTab):
+        if (self.is_vol_unit(fromUnit)):
             valueG = (value * self.get_density(material) * 
                 self._volConvTab[fromUnit])
             return valueG / self._massConvTab[toUnit]
         return value * self._massConvTab[fromUnit] / self._massConvTab[toUnit]
 
     def _conv_vol(self, value, toUnit, fromUnit, material):
-        if (fromUnit in self._massConvTab):
+        if (self.is_mass_unit(fromUnit)):
             valueMl = (value / self.get_density(material) * 
                 self._massConvTab[fromUnit])
             return valueMl / self._volConvTab[toUnit]
@@ -69,6 +81,7 @@ class Adjuster:
             self._inputValues = json.load(inputFile)
         self._outputFilePath = outputFilePath
         self._computedValues = {}
+        self.unitConv = UnitConv()
 
     def get_input(self, paramName):
         return self._inputValues[paramName]
@@ -97,6 +110,42 @@ class Adjuster:
 
     def set_template_var_percent(self, name, percent):
         self._computedValues[name] = '{:.0f}%'.format(percent * 100.)
+
+    def fmt_templ_var_amount(self, name, value, unit = '', material = ''):
+        if self.unitConv.is_vol_unit(unit) and not material:
+            value = self.unitConv.conv(value, 'mL', unit, roundOff=5/8)
+            if value >= 1000:
+                valueMl = self.unitConv.conv(value, 'mL')
+                self.set_template_variable(name, f'{valueMl:.2f}L')
+            elif value >= 75:
+                self.set_template_variable(name, f'{value:.0f}mL')
+            elif value >= 15:
+                valueTbsp = self.unitConv.conv(
+                    value, 'tbsp', 'mL', roundOff=1/8)
+                self.set_template_variable(
+                    name, f'{valueTbsp} tbsp ({value:.2f}mL)')
+            else:
+                valueTsp = self.unitConv.conv(
+                    value, 'tsp', 'mL', roundOff=1/8)
+                self.set_template_variable(
+                    name, f'{valueTsp} tsp ({value:.2f}mL)')
+        else:
+            value = self.unitConv.conv(value, 'g', unit, material, 0.1)
+            if value >= 1000:
+                valueKg = self.unitConv.conv(value, 'kg')
+                self.set_template_variable(name, f'{valueKg:.3f}kg')
+            elif value >= 40:
+                self.set_template_variable(name, f'{value:.0f}g')
+            elif value >= 10:
+                valueTbsp = self.unitConv.conv(
+                    value, 'tbsp', 'g', material, 1/8)
+                self.set_template_variable(
+                    name, f'{valueTbsp} tbsp ({value:.1f}g)')
+            else:
+                if material == 'saffron': print('value =', value)
+                valueTsp = self.unitConv.conv(value, 'tsp', 'g', material, 1/8)
+                self.set_template_variable(
+                    name, f'{valueTsp} tsp ({value:.1f}g)')
 
     def compute_values(self):
         pass
