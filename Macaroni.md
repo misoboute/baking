@@ -1,0 +1,6 @@
+- 250g macaroni
+- 100g minced beef
+- 75g green pea
+- 2 tbsp tomato paste
+- 1 onion
+- 1 bell pepper
