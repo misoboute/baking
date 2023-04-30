@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+
+
 import recipeutil
 from datetime import datetime, timedelta
 import math
@@ -31,6 +34,7 @@ class RecipeAdjuster(recipeutil.Adjuster):
         # Read values from the JSON input file:
         startTime = self.get_input_time('startTime')
         starterHydrationRatio = self.get_input_perc('starterHydrationPercent')
+        starterSeedRatio = self.get_input_perc('starterSeedPercent')
         starterStrengthFactorPerHour = self.get_input('starterStrengthFactorPerHour')
         maintainedStarterGrams = self.get_input('maintainedStarterGrams')
         levainHydrationRatio = self.get_input_perc('levainHydrationPercent')
@@ -58,44 +62,44 @@ class RecipeAdjuster(recipeutil.Adjuster):
 
         doughRoundWeightGrams = loafWeightGrams / bakeMassReductionRatio
 
-        finalDoughGrams = numberOfLoaves * (
-            doughRoundWeightGrams + extraDoughGramsPerLoaf)
+        finalDoughGrams = numberOfLoaves * (doughRoundWeightGrams + extraDoughGramsPerLoaf)
 
         levainMixEndTime = startTime + timedelta(minutes=15)
         maxLevainSeedContent = 5.08
 
-        levainRiseTime = (math.log(maxLevainSeedContent / levainSeedRatio) / 
-            starterStrengthFactorPerHour)
+        levainRiseTime = (math.log(maxLevainSeedContent / levainSeedRatio) / starterStrengthFactorPerHour)
 
         levainRiseTime = round(levainRiseTime * 12) / 12
         levainRiseEndTime = levainMixEndTime + timedelta(hours=levainRiseTime)
 
         finalDoughCompositionGrams = self.get_dough_composition(
-            finalDoughGrams, finalDoughHydrationRatio, finalDoughSeedRatio,
-            levainHydrationRatio, finalDoughSaltRatio)
+            finalDoughGrams, finalDoughHydrationRatio, finalDoughSeedRatio, levainHydrationRatio, finalDoughSaltRatio)
 
-        (finalDoughFlourGrams, finalDoughLevainGrams, finalDoughSaltGrams,
-         finalDoughWaterGrams) = (finalDoughCompositionGrams[x] for x in (
-            'flour', 'levain', 'salt', 'water'))
+        (finalDoughFlourGrams, finalDoughLevainGrams, finalDoughSaltGrams,finalDoughWaterGrams) = (
+            finalDoughCompositionGrams[x] for x in ('flour', 'levain', 'salt', 'water'))
 
         initDoughGrams = finalDoughFlourGrams + finalDoughWaterGrams
         
         levainToMixGrams = finalDoughLevainGrams + maintainedStarterGrams
 
         levainCompositionGrams = self.get_dough_composition(
-            levainToMixGrams, levainHydrationRatio, levainSeedRatio,
-            starterHydrationRatio, 0)
+            levainToMixGrams, levainHydrationRatio, levainSeedRatio,starterHydrationRatio, 0)
 
         levainMixFlourGrams, levainMixWaterGrams, levainMixStarterGrams = (
             levainCompositionGrams[x] for x in ('flour', 'water', 'levain'))
+
+        starterCompositionGrams = self.get_dough_composition(
+            maintainedStarterGrams, starterHydrationRatio, starterSeedRatio,starterHydrationRatio, 0)
+
+        starterMixFlourGrams, starterMixWaterGrams, starterMixStarterGrams = (
+            starterCompositionGrams[x] for x in ('flour', 'water', 'levain'))
 
         initDoughMixStartTime = levainRiseEndTime - autolyseDuration
         initDoughMixEndTime = initDoughMixStartTime + timedelta(minutes=20)
         finalDoughMixEndTime = levainRiseEndTime + timedelta(minutes=30)
         bulkRiseEndTime = finalDoughMixEndTime + bulkRiseDuration
 
-        stretchFoldTimes = [ i * timeBetweenStretches + finalDoughMixEndTime 
-            for i in range(1, 4)]
+        stretchFoldTimes = [ i * timeBetweenStretches + finalDoughMixEndTime for i in range(1, 4) ]
 
         bulkRiseVolIncRatio = (flourTypeNumber - 500) / 1000. + 1.25
 
@@ -107,14 +111,11 @@ class RecipeAdjuster(recipeutil.Adjuster):
         preshapeEndTime = bulkRiseEndTime + timedelta(minutes=30)
         shapeEndTime = preshapeEndTime + timedelta(minutes=30)
 
-        finalRiseVolIncRatio = finalToBulkRiseRatio * (
-            bulkRiseVolIncRatio - 1) + 1
+        finalRiseVolIncRatio = finalToBulkRiseRatio * (bulkRiseVolIncRatio - 1) + 1
         
-        finalRiseDuration = bulkRiseDuration * math.log(
-            finalRiseVolIncRatio) / math.log(bulkRiseVolIncRatio)
+        finalRiseDuration = bulkRiseDuration * math.log(finalRiseVolIncRatio) / math.log(bulkRiseVolIncRatio)
 
-        finalRiseDuration = timedelta(
-            seconds=round(finalRiseDuration.seconds / 300) * 300)
+        finalRiseDuration = timedelta(seconds=round(finalRiseDuration.seconds / 300) * 300)
         
         finalRiseEndTime = shapeEndTime + finalRiseDuration
         preheatTime = finalRiseEndTime - preheatDuration
@@ -123,6 +124,11 @@ class RecipeAdjuster(recipeutil.Adjuster):
         # Format and set the template variables
         self.set_template_var_time('levainMixStartTime', startTime)
         self.set_template_var_time('levainMixEndTime', levainMixEndTime)
+        self.set_template_var_grams('starterFlourAmount', starterMixFlourGrams)
+        self.set_template_var_grams('starterWaterAmount', starterMixWaterGrams)
+        self.set_template_var_grams('starterStarterAmount', starterMixStarterGrams)
+        self.set_template_var_percent('starterSeedPercent', starterSeedRatio)
+        self.set_template_var_percent('starterHydrationPercent', starterHydrationRatio)
         self.set_template_var_grams('levainFlourAmount', levainMixFlourGrams)
         self.set_template_var_grams('levainWaterAmount', levainMixWaterGrams)
         self.set_template_var_grams('levainStarterAmount', levainMixStarterGrams)
