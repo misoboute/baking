@@ -1,12 +1,12 @@
 {
     "numberOfServings" : 5,
-    "servingSizeGrams" : 400,
+    "servingSizeGrams" : 406,
     "yieldRatioPercent" : 97,
     "cinnamonToFlourPercent" : 1.4,
     "milkToFlourPercent" : 789,
     "waterToFlourPercent" : 78,
     "sugarToFlourPercent" : 50,
-    "roseWaterToFlourPercent" : 26,
+    "roseWaterToFlourPercent" : 39,
     "butterToFlourPercent" : 26,
     "saffronToFlourPercent" : 0.14,
     "nutsToFlourPercent" : 26

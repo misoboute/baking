@@ -45,7 +45,7 @@ class RecipeAdjuster(recipeutil.Adjuster):
         self.fmt_templ_var_amount('waterAmount', waterGrams)
         self.fmt_templ_var_amount('sugarAmount', sugarGrams)
         self.fmt_templ_var_amount('roseWaterAmount', roseWaterGrams, 'g', 'rosewater')
-        self.fmt_templ_var_amount('butterAmount', butterGrams)
+        self.fmt_templ_var_amount('butterAmount', butterGrams, 'g', 'butter')
         self.fmt_templ_var_amount('saffronAmount', saffronGrams, 'g', 'saffron')
         self.fmt_templ_var_amount('nutsAmount', nutsGrams, 'g', 'crushedNuts')
 
