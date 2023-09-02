@@ -1,10 +1,10 @@
 # Sourdough Barbari Bread
 
 ## Yield
-This recipe will produce 10 loaves each with an average weight of 350g.
+This recipe will produce 15 loaves each with an average weight of 400g.
 
 ## Feeding the Starter
-Time: 22:15-22:30 (the date before the bake)
+Time: 09:30-09:45 (the date before the bake)
 
 ### Ingredients
 - 80g flour (equal parts whole wheat and all-purpose flour)
@@ -19,21 +19,21 @@ Even if you keep your starter in the fridge and feed it every week or so, it is 
 
 Feeding the starter is easy. Just pour the given amounts of flour, water, and existing starter into a bowl and mix. Discard the remaining starter in the jar, then clean and the jar. Now pour the freshly mixed starter into the jar and store in a warm, preferrably dark place.
 
-It is a good practice to mark the level of the starter on the jar as a measure of its initial volume. In a few hours the yeast in the starter will start feeding and causing the mixture to increase in volume and thus rise. The volume increase will continue until a certain maximum volume is reached. From there, the starter begins to deflate and the level will begin to fall. The rise and the subsequent fall of the starter will leave a tidal mark on the wall of the jar. The next day, before feeding it or before mixing it into the levain, note the highest point of the tidal mark and compare it to the initial volume of the starter. Record the maximum increase ratio of the starter can be used to determine when the levain is ready for mixing into the dough.
+It is a good practice to mark the level of the starter on the jar as a measure of its initial volume. In a few hours the yeast in the starter will start feeding and causing the mixture to increase in volume and thus rise. The volume increase will continue until a certain maximum volume is reached. From there, the starter begins to deflate and the level will begin to fall. The rise and the subsequent fall of the starter will leave a tidal mark on the wall of the jar. The next day, before feeding it or before mixing it into the levain, note the highest point of the tidal mark and compare it to the initial volume of the starter. Record the maximum increase ratio of the starter can be used to determine when the levain is ready for mixing into the dough. The ratio 2.25 makes for a good starter.
 
 ## Levain mix
-Time: 22:15-22:30
+Time: 09:30-09:45
 
 ### Ingredients
-- 216g flour (equal parts whole wheat and all-purpose flour)
-- 216g water
-- 108g starter (24hr fed)
+- 742g flour (equal parts whole wheat and all-purpose flour)
+- 742g water
+- 371g starter (24hr fed)
 
 ### Yields
-540g of 20% seeded, 100% hydrated levain
+1854g of 20% seeded, 100% hydrated levain
 
 ### Comments
-This step is essentially the same as feeding the starter - except here we feed the starter to get a larger amount of it than our initial batch. So if I usually keep a 200g starter batch and I need 340g of levain in the final dough mix, here I will feed such that I get, say, 540g of levain so that I could use the 340g for the dough and keep the rest as the starter for future bakes. When the starter/levain is at its highest rise, a portion of it will be used in the dough mix and the rest will be kept as the future starter.
+This step is essentially the same as feeding the starter - except here we feed the starter to get a larger amount of it than our initial batch. So if I usually keep a 200g starter batch and I need 1654g of levain in the final dough mix, here I will feed such that I get, say, 1854g of levain so that I could use the 1654g for the dough and keep the rest as the starter for future bakes. When the starter/levain is at its highest rise, a portion of it will be used in the dough mix and the rest will be kept as the future starter.
 
 Before making the levain (or feeding the starter), if the starter has liquid on top of it (hooch), mix it well before using it. Then, in a mixing bowl, pour the water and add the appropriate amount of the starter and mix well. Then add the flour and mix well. 
 
@@ -52,7 +52,7 @@ _Levain immediately after the mix - top view_
 ![Levain immediately after the mix - top view](images/Barbari-8/02-levain-after-mix-top.jpg)
 
 ## Levain rise
-Time: 22:30-02:00
+Time: 09:45-13:15
 
 ### Comments
 Basically how long it takes for the levain to rise to its highest depends on the temperature and its strength. If you find out that, in the same temperature, your levain takes ever longer to rise, chance is it's losing its strengths. This could happen when you neglect to feed the starter once or twice a week. Probably a full week of feeding the starter every 24 hours, with no fridge storage in between feedings, could restore its vitality. From then on, feed it 3 times a week: once 48h before the levain mix, 24h before, and once the levain mix itself. After mixing the levain into the dough, store it in the fridge for slow fermentation. If not baking for one week, feed the starter twice 24h apart and store it in the fridge after the second feeding. 
@@ -64,11 +64,11 @@ _Levain at its highest rise. Notice the bubbles on top._
 ![Levain at its highest rise. Notice the bubbles on top.](images/Barbari-8/06-levain-full-rise-top.jpg)
 
 ## Initial dough mix
-Time: 00:30-00:50
+Time: 12:15-12:35
 
 ### Ingredients
-- 1773g water
-- 2259g all-purpose flour
+- 2481g water
+- 3308g all-purpose flour
 
 ### Comments
 Pour all the water in the bowl and then add about three quarters of the flour and start mixing with hand until you get an almost smooth batter. Continue adding the flour little by little while mixing. Add a small amount of the flour, mix well, then add more flour and so on. Continue until all the flour is gone. Mix ingredients until all the flour is incorporated into the bulk of dough, then perform a series of stretching exercises on the dough for ~5 min. 
@@ -94,26 +94,26 @@ _Initial dough mix_
 ![Initial dough mix](images/Barbari-8/04-dough-initial-mix.jpg)
 
 ## Autolyse
-Time: 00:50-02:00
+Time: 12:35–13:15
 
 ### Comments
 Cover the dough container with a damp towel and let it rest for an hour so the water is fully absorbed into flour particles and the right chemical reactions take place to turn flour proteins (gliadin, glutenin...) into gluten. Glutens are very long strands of molecules that attach to one another to form a great network across the bulk of dough. This is essentially what we recognize as dough strength. It is responsible for the dough holding to itself without breaking when stretched. The tiny compartments within the gluten network help trap and keep the fermentation gas inside the dough. These compartments will turn to the differently sized holes within the crumb of the finished bread. The gluten is also responsible for the chewy texture of the final bread.
 
 ## Final dough mix
-Time: 02:00-02:30
+Time: 13:15–13:45
 
 ### Ingredients
-- 4033g autolysed dough
-- 44g salt
-- 340g levain
+- 5789g autolysed dough
+- 74g salt
+- 1654g levain
 
 ### Yield
-4417g of 80% hydrated, 7% seeded dough
+7518g of 80% hydrated, 20% seeded dough
 
 ### Comments
 Measure and pour the levain into a bowl, then add the salt to it. Mix well to dissolve the salt in the levain water. Then pour the levain mixture into the autolysed dough. Mix the levain into the dough by consecutive stretch and fold exercises. Continue stretching and folding for about 10 min to make sure that the levain and salt are evenly mixed in. This has the added benefit of building up further dough strength so that fewer stretching and folding sets will be needed during the fermentation. Mixing the levain and salt into the dough through random pinching and squeezing motions tends to weaken the strength that has already been built into the dough during autolyse requiring more stretches and folds during fermentation.
 
-For 10 x 417g dough rounds, we prepare 250g of extra dough to compensate for the dough measurement errors and the leftover dough sticking to the bowl, spillage, etc. Generally, consider an extra 25g of dough per loaf.
+For 15 x 476g dough rounds, we prepare 375g of extra dough to compensate for the dough measurement errors and the leftover dough sticking to the bowl, spillage, etc. Generally, consider an extra 25g of dough per loaf.
 
 _The salt is dissolved in the levain and the levain will be added to the dough_
 ![The salt is dissolved in the levain and the levain will be added to the dough](images/Barbari-8/07-before-final-mix.jpg)
@@ -126,15 +126,15 @@ _Final dough mix volume_
 ![Final dough mix volume](images/Barbari-9/01-after-final-mix.jpg)
 
 ## Bulk fermentation
-Time: 02:30-12:30
+Time: 13:45-18:45
 
 ## Comments
 Cover the bowl with a damp towel in the room temperature (25~30 deg C)
-- 03:00 one set of stretch and fold
-- 03:30 one set of stretch and fold (if needed)
-- 04:00 one set of stretch and fold (if needed)
+- 14:15 one set of stretch and fold
+- 14:45 one set of stretch and fold (if needed)
+- 15:15 one set of stretch and fold (if needed)
 
-Before performing the first set of stretches and folds, just as the dough surface is flat, mark the level of the dough on the exterior of the container (by sticking a thin, line-like piece of dough on one of the measurement marks) so you can see, at any time during the bulk rise, how much the dough has risen. If you have a container with measurement marks, just note down the starting volume of the dough.
+Before performing the first set of stretches and folds, just as the dough surface is flat, mark the level of the dough on the exterior of the container (by sticking a thin, line‐like piece of dough on one of the measurement marks) so you can see, at any time during the bulk rise, how much the dough has risen. If you have a container with measurement marks, just note down the starting volume of the dough.
 
 Before every scheduled set of stretch and fold, perform the window pane test to see if the dough has achieved enough strength already or it needs more stretching and folding. 
 
@@ -144,7 +144,9 @@ Pinch two points of the dough almost 5cm apart and stretch between the fingers. 
 ### Timing
 How long the bulk rise takes depends on the strength of the levain and the ambient temperature (which could vary over time). These two factors are not easily measurable or controllable. The bulk rise is done when the volume of the dough increases to about 140% of its starting volume (which you should have noted before the first set of stretch and fold). A rise that's too much less than this could result in a tighter crumb unless the loaves are given a longer final rise (after shaping). A rise that's considerably higher than this could consume all the dough strength and without enough strength the dough will lose much of its gas during the preshape and shape steps. Trust the volume measurements more than the time measurements. Besides when the dough is over-fermented, it becomes extremely difficult to work with due to its loss of strength. It becomes sticky and won't hold to itself as a stronger dough would.
 
-In my experience (see previous bake entries), for type 500 (all-purpose) flour, a 150% rise leads to a slightly tighter crumb than a 110% rise with equal final rise times. This is because the longer the bulk rise, the more the dough strength is depleted and the capacity to hold fermentation gas. Somewhere in between should be the ideal limit which is different for different types of flour - again different flour types have different capacity for keeping dough strength. For type 500 flour, go for a 125% bulk rise and for type 850 flour you could go up to 160%. For anything in between, make linear adjustments. Although I haven't experimented with intermediate flour types yet, I assume this calculation to be safe. For instance, for type 650, you could go for a 140% bulk rise because:
+Density of 82% hydrated dough measured to be about 1.3 kg/L.
+
+In my experience (see previous bake entries), for type 500 (all-purpose) flour, a 150% rise leads to a slightly tighter crumb than a 110% rise with equal final rise times. This is because the longer the bulk rise, the more the dough strength is depleted and the capacity to hold fermentation gas. Somewhere in between should be the ideal limit which is different for different types of flour — again different flour types have different capacity for keeping dough strength. For type 500 flour, go for a 125% bulk rise and for type 850 flour you could go up to 160%. For anything in between, make linear adjustments. Although I haven't experimented with intermediate flour types yet, I assume this calculation to be safe. For instance, for type 650, you could go for a 140% bulk rise because:
 (650 - 500) / 10 + 125 = 140
 
 _The window pane test before the first set of stretch and fold_
@@ -158,31 +160,31 @@ _After the bulk fermentation: note the bubbles on top_
 ![After the bulk fermentation: note the bubbles on top](images/Barbari-9/03-after-bulk-rise-top.jpg)
 
 ## Barbari glaze (ferni)
-Time: 12:00-12:30
+Time: 18:15-18:45
 
 ### Ingredients
-- 43g whole wheat
-- 350g water
+- 65g whole wheat
+- 525g water
 
 ### Yield
-380g ferni
+570g ferni
 
 ### Comment
 Pour the water in a small pan and place on the stove on medium heat (number 4), then add the flour little by little while stirring the mixture to prevent formation of clots. Continue stirring until enough water is evaporated and enough flour starch is dissolved and the desired thickness is achieved. The starchier the ferni, the deeper the colour that it will impart to the loaf crust after baking.
 
-Optimal starting rate for ferni seems to be 810% hydrated mixture prepared according to the instructions. Amount of ferni to prepare is about 38g for a 417g loaf of barbari.
+Optimal starting rate for ferni seems to be 810% hydrated mixture prepared according to the instructions. Amount of ferni to prepare is about 38g for a 476g loaf of barbari.
 
 _Prepared ferni_
 ![Prepared ferni](images/Barbari-9/09-prepared-ferni.jpg)
 
 ## Preshape
-Time: 12:30-13:00
+Time: 18:45-19:15
 
 ### Comments
 Prepare the work surface, divide and preshape the rounds, bench rest.
 
 ### Work surface
-Probably a table top horizontally divided into three sections. The leftmost section is where the bulk is placed (top) along with the scale (bottom left) and a bowl of water (bottom right, for wetting the bench knife and the hand as needed). Also, do not dump the whole bulk on the table (as some recipes indicate) so it doesn't spread (as it is quite wet) to occupy so much space. Just grab a piece from inside the mixing container using a wet hand and cut it off using the bench knife. Place the piece on the floured scale tray and adjust the weight by cutting small pieces off it using the bench knife or adding to it. Then place the dough in the middle section of the table. At this stage, each dough round (or chooneh as it is called in Persian) should be around 417g.
+Probably a table top horizontally divided into three sections. The leftmost section is where the bulk is placed (top) along with the scale (bottom left) and a bowl of water (bottom right, for wetting the bench knife and the hand as needed). Also, do not dump the whole bulk on the table (as some recipes indicate) so it doesn't spread (as it is quite wet) to occupy so much space. Just grab a piece from inside the mixing container using a wet hand and cut it off using the bench knife. Place the piece on the floured scale tray and adjust the weight by cutting small pieces off it using the bench knife or adding to it. Then place the dough in the middle section of the table. At this stage, each dough round (or chooneh as it is called in Persian) should be around 476g.
 
 The middle section is the shaping area where the shaping techniques are performed (folding sides, rotating, skin building, etc). While performing the techniques, slightly wet the hand and the bench knife if the dough starts sticking to them. The middle section must NOT be floured previously - the wetness from the hand and the bench knife will keep the skin of the dough wet and prevent it from sticking to the surface too much (unless it's overfermented in which case you're about screwed anyway!). After shaping the dough, lift it using the wet bench knife and place it in the rightmost section of the table.
 
@@ -207,7 +209,7 @@ _Rest after the preshape_
 ![Rest after the preshape](images/Barbari-9/05-after-preshape.jpg)
 
 ## Shape
-Time: 13:00-13:30
+Time: 19:15-19:45
 
 ### Comments
 Preshaping of multiple dough rounds and preparing the ferni takes some time and, by the time that the last dough has been preshaped, the first preshaped dough has already rested on the bench for about 30 minutes and is ready to be shaped. Therefore, start shaping the first dough 20-30 min after its preshape has been done.
@@ -223,7 +225,7 @@ _Shaped rounds after glazing_
 ![Shaped rounds after glazing](images/Barbari-9/08-glazed-dough.jpg)
 
 ## Final rise
-Time: 13:30-17:55
+Time: 19:45-21:55
 
 ### Comments
 In this step, the dough rounds should rise up to a critical point where more gas is built up inside but the round doesn't lose too much strength. We aim for about 116% a rise in this step. We can't exactly measure the volumetric rise of each round but, ignoring temperature variance, we could assume that the final rise has an almost equal rate to the bulk rise and therefore the time needed for a 116% rise will be proportionate to that needed for the bulk rise (140%) by a factor that can be calculated as below. Generally speaking, given the temperature remains steady during the bulk and the final rise, we could estimate the time for the final rise as:
@@ -242,11 +244,11 @@ _Shaped rounds after the final rise_
 ![Shaped rounds after the final rise](images/Barbari-10/after-final-rise.jpg)
 
 ## Bake
-Preheat time: 16:55
-Time: 17:55-20:55
+Preheat time: 21:15
+Time: 21:55-02:25
 
 ### Comments
-Start preheating the oven 01:00 hour before putting in the first loaf to 250 deg C.
+Start preheating the oven 00:40 hour before putting in the first loaf to 250 deg C.
 
 The first round to have been shaped should be baked first. If the glaze is too much dried, apply a little more of it on top of the round. Grooving should be done right before baking (not right after shaping) because the pattern begins to dissappear during the bench rise. Punch the pattern by putting the 6 fingers on your both hands (3 middle fingers on each hand) together in a row to form the likeness of a comb, then punch the comb deep into the flattened dough to create about 5-6 rows of finger-holes that go from the left end of the round to the right end of it. The rows should be about 2cm apart. Leave unpunched margins of about 2cm at the top and bottom and 1cm at the sides.
 

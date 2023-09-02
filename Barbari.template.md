@@ -19,7 +19,7 @@ Even if you keep your starter in the fridge and feed it every week or so, it is 
 
 Feeding the starter is easy. Just pour the given amounts of flour, water, and existing starter into a bowl and mix. Discard the remaining starter in the jar, then clean and the jar. Now pour the freshly mixed starter into the jar and store in a warm, preferrably dark place.
 
-It is a good practice to mark the level of the starter on the jar as a measure of its initial volume. In a few hours the yeast in the starter will start feeding and causing the mixture to increase in volume and thus rise. The volume increase will continue until a certain maximum volume is reached. From there, the starter begins to deflate and the level will begin to fall. The rise and the subsequent fall of the starter will leave a tidal mark on the wall of the jar. The next day, before feeding it or before mixing it into the levain, note the highest point of the tidal mark and compare it to the initial volume of the starter. Record the maximum increase ratio of the starter can be used to determine when the levain is ready for mixing into the dough.
+It is a good practice to mark the level of the starter on the jar as a measure of its initial volume. In a few hours the yeast in the starter will start feeding and causing the mixture to increase in volume and thus rise. The volume increase will continue until a certain maximum volume is reached. From there, the starter begins to deflate and the level will begin to fall. The rise and the subsequent fall of the starter will leave a tidal mark on the wall of the jar. The next day, before feeding it or before mixing it into the levain, note the highest point of the tidal mark and compare it to the initial volume of the starter. Record the maximum increase ratio of the starter can be used to determine when the levain is ready for mixing into the dough. The ratio 2.25 makes for a good starter.
 
 ## Levain mix
 Time: ${levainMixStartTime}-${levainMixEndTime}
@@ -94,13 +94,13 @@ _Initial dough mix_
 ![Initial dough mix](images/Barbari-8/04-dough-initial-mix.jpg)
 
 ## Autolyse
-Time: ${initDoughMixEndTime}-${levainRiseEndTime}
+Time: ${initDoughMixEndTime}–${levainRiseEndTime}
 
 ### Comments
 Cover the dough container with a damp towel and let it rest for an hour so the water is fully absorbed into flour particles and the right chemical reactions take place to turn flour proteins (gliadin, glutenin...) into gluten. Glutens are very long strands of molecules that attach to one another to form a great network across the bulk of dough. This is essentially what we recognize as dough strength. It is responsible for the dough holding to itself without breaking when stretched. The tiny compartments within the gluten network help trap and keep the fermentation gas inside the dough. These compartments will turn to the differently sized holes within the crumb of the finished bread. The gluten is also responsible for the chewy texture of the final bread.
 
 ## Final dough mix
-Time: ${levainRiseEndTime}-${finalDoughMixEndTime}
+Time: ${levainRiseEndTime}–${finalDoughMixEndTime}
 
 ### Ingredients
 - ${initDoughAmount} autolysed dough
@@ -134,7 +134,7 @@ Cover the bowl with a damp towel in the room temperature (25~30 deg C)
 - ${stretchFold2Time} one set of stretch and fold (if needed)
 - ${stretchFold3Time} one set of stretch and fold (if needed)
 
-Before performing the first set of stretches and folds, just as the dough surface is flat, mark the level of the dough on the exterior of the container (by sticking a thin, line-like piece of dough on one of the measurement marks) so you can see, at any time during the bulk rise, how much the dough has risen. If you have a container with measurement marks, just note down the starting volume of the dough.
+Before performing the first set of stretches and folds, just as the dough surface is flat, mark the level of the dough on the exterior of the container (by sticking a thin, line‐like piece of dough on one of the measurement marks) so you can see, at any time during the bulk rise, how much the dough has risen. If you have a container with measurement marks, just note down the starting volume of the dough.
 
 Before every scheduled set of stretch and fold, perform the window pane test to see if the dough has achieved enough strength already or it needs more stretching and folding. 
 
@@ -144,7 +144,9 @@ Pinch two points of the dough almost 5cm apart and stretch between the fingers. 
 ### Timing
 How long the bulk rise takes depends on the strength of the levain and the ambient temperature (which could vary over time). These two factors are not easily measurable or controllable. The bulk rise is done when the volume of the dough increases to about ${bulkRiseVolIncPercent} of its starting volume (which you should have noted before the first set of stretch and fold). A rise that's too much less than this could result in a tighter crumb unless the loaves are given a longer final rise (after shaping). A rise that's considerably higher than this could consume all the dough strength and without enough strength the dough will lose much of its gas during the preshape and shape steps. Trust the volume measurements more than the time measurements. Besides when the dough is over-fermented, it becomes extremely difficult to work with due to its loss of strength. It becomes sticky and won't hold to itself as a stronger dough would.
 
-In my experience (see previous bake entries), for type 500 (all-purpose) flour, a 150% rise leads to a slightly tighter crumb than a 110% rise with equal final rise times. This is because the longer the bulk rise, the more the dough strength is depleted and the capacity to hold fermentation gas. Somewhere in between should be the ideal limit which is different for different types of flour - again different flour types have different capacity for keeping dough strength. For type 500 flour, go for a 125% bulk rise and for type 850 flour you could go up to 160%. For anything in between, make linear adjustments. Although I haven't experimented with intermediate flour types yet, I assume this calculation to be safe. For instance, for type 650, you could go for a 140% bulk rise because:
+Density of 82% hydrated dough measured to be about 1.3 kg/L.
+
+In my experience (see previous bake entries), for type 500 (all-purpose) flour, a 150% rise leads to a slightly tighter crumb than a 110% rise with equal final rise times. This is because the longer the bulk rise, the more the dough strength is depleted and the capacity to hold fermentation gas. Somewhere in between should be the ideal limit which is different for different types of flour — again different flour types have different capacity for keeping dough strength. For type 500 flour, go for a 125% bulk rise and for type 850 flour you could go up to 160%. For anything in between, make linear adjustments. Although I haven't experimented with intermediate flour types yet, I assume this calculation to be safe. For instance, for type 650, you could go for a 140% bulk rise because:
 (650 - 500) / 10 + 125 = 140
 
 _The window pane test before the first set of stretch and fold_
